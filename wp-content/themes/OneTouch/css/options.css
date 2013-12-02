@@ -1,0 +1,110 @@
+h1 {
+    font-size:null!important;
+    font-family:null!important;
+    font-style:normal!important;
+    font-weight:normal!important;
+}
+
+h2 {
+    font-size:null!important;
+    font-family:null!important;
+    font-style:normal!important;
+    font-weight:normal!important;
+}
+
+h3 {
+    font-size:null!important;
+    font-family:null!important;
+    font-style:normal!important;
+    font-weight:normal!important;
+}
+
+h4 {
+    font-size:null!important;
+    font-family:null!important;
+    font-style:normal!important;
+    font-weight:normal!important;
+}
+
+h5 {
+    font-size:null!important;
+    font-family:null!important;
+    font-style:normal!important;
+    font-weight:normal!important;
+}
+
+h6 {
+    font-size:null!important;
+    font-family:null!important;
+    font-style:normal!important;
+    font-weight:normal!important;
+}
+
+
+
+
+
+
+body, article{color:#4D4D4D;}body, #content p, #content, #content div{font-size:13px;}
+
+a {
+    color:;
+}
+
+a:hover {
+    color:;
+}
+
+body {
+	background-color:#FFFFFF!important;
+	background-repeat:repeat-y!important;
+}
+#body-wrapper{
+    }
+
+#darkf {
+	background-color:#0a0500!important;
+	color:#ff8524!important;
+	background-repeat:repeat-y!important;
+}
+
+.scroll-box .item.even .description, .no-scroll .item.even .description, .item.even .description{	background-color: #eb2100;
+	background-color:rgba(235,33,0,0.87);
+	color:#ff7233;
+}
+
+.scroll-box .item.even .description time, .no-scroll .item.even .description time, .item.even time{ 	color:#545454;
+}
+
+.scroll-box .item.odd .description, .no-scroll .item.odd .description, .item .description{	background-color: #ff4e33;
+	background-color:rgba(255,78,51,0.87);
+	color:#72ff29;
+}
+
+.scroll-box .item.odd .description time, .no-scroll .item.odd .description time, .item .description time{ 	color:#eb24ff;
+}
+
+.tiled-menu>li>.menu-item-wrap>a{
+  background-color:#ffaa31;
+}
+.tiled-menu>.menu-portfolio>span>a {
+   background-color:#FFAA31;
+}
+.tiled-menu>.menu-blog>span>a{
+  background-color:#57BAE8;
+}
+.tiled-menu>.menu-shop>span>a{
+   background-color:#6CBE42;
+ }
+.tiled-menu>.menu-shortcodes>span>a {
+    background-color:#FFAA31;
+}
+.tiled-menu>.menu-features>span>a{
+    background-color:#57BAE8;
+}
+.tiled-menu>.menu-contacts>span>a{
+    background-color:#FFAA31;
+}
+#topmenu .tiled-menu{float:right}
+
+

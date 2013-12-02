@@ -1,0 +1,8 @@
+#toplevel_page_social-buttons-wp div.wp-menu-image {
+	background: transparent url(../images/icon.png) no-repeat  scroll center 0;
+}
+
+#toplevel_page_social-buttons-wp:hover div.wp-menu-image,
+#toplevel_page_social-buttons-wp.current .wp-menu-image {
+	background: transparent url(../images/icon.png) no-repeat  scroll center -28px;
+}

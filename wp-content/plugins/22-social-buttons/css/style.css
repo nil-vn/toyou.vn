@@ -1,0 +1,36 @@
+.control-label {
+	width: 100px;
+	padding-right: 15px;
+	float: left;
+	text-align: left !important;
+}
+.controls {
+	width: 75%;
+	float: left;
+}
+.form-actions {
+	clear: both;
+	padding: 20px 26px;
+	background: none;
+	border: 1px #B6B6B6 dashed;
+	overflow: hidden;
+}
+.control-group {
+	float: left;
+	overflow: hidden;
+	margin-bottom: 0;
+	width: 400px;
+}
+.control-group-width {
+	width: 100%;
+	margin: 20px 0 0;
+}
+.social-b-box {
+	max-width: 810px;
+}
+.social-b-box div{
+	float:left;
+	width: 260px;
+	border-left: 1px dashed #B6B6B6;
+	padding-left: 10px;
+}

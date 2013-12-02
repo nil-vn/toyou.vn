@@ -1,0 +1,436 @@
+@charset "utf-8";
+
+/* c:20131101 m:20131111 */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+img,fieldset {
+border: 0;
+}
+li {
+list-style-type: none;
+}
+
+
+/* 
+------------------------------------------------------------*/
+html {
+	overflow-y: scroll;
+	height: 100%;
+}
+body {
+	height: 100%;
+	background: #fff url(../img/common/bg_body.png) repeat-x center top;
+	color: #333;
+}
+
+/* Fonts
+------------------------------------------------------------*/
+body {
+	font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+	line-height: 1.4;
+}
+/* ie7 */
+*:first-child+html body {
+	font-size:75%;
+}
+/* ie5-6 */
+* html body {
+	font-size:75%;
+}
+/* ie8 */
+html>/**/body {
+	font-size:75%;
+}
+/* not ie8 */
+html:not(:target) body {
+	font-size: 12px;
+}
+
+input {
+	font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+
+/* common
+------------------------------------------------------------*/
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	-o-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+
+}
+a:hover{
+    color: #ff8888;
+    text-decoration: none;
+}
+
+.imgLink a img {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+.imgLink a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/* header
+------------------------------------------------------------*/
+.globalHeader {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/* headLine */
+.globalHeader .headLine {
+	height: 37px;
+}
+.globalHeader .headLine h1 {
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 32px;
+}
+.globalHeader .headLine .searchFormArea {
+	float: right;
+	padding: 3px 0 0 0;
+}
+.globalHeader .headLine .searchFormArea input[type="text"] {
+	width: 240px;
+	height: 1.5em;
+	margin: 0 6px 0 0;
+	font-size: 12px;
+}
+.globalHeader .headLine .searchFormArea .searchBtn {
+	padding: 0 1em;
+	border-radius: 11px;
+	background: #FF7777;
+	color: #fff;
+	font-size: 14px;
+	font-weight: #fff;
+	vertical-align: middle;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	-o-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+	behavior: url(border-radius.htc);
+}
+.globalHeader .headLine .searchFormArea .searchBtn:hover {
+	opacity: 0.8;
+}
+
+/* headerContents */
+.globalHeader .headerContents {
+	position: relative;
+	height: 71px;
+}
+.globalHeader .headerContents .siteLogo {
+	float: left;
+	margin-right: 25px;
+}
+/* globalNav */
+.globalHeader .headerContents .globalNav {
+	float: left;
+}
+.globalHeader .headerContents .globalNav ul {
+}
+.globalHeader .headerContents .globalNav ul li {
+	float: left;
+}
+.globalHeader .headerContents .globalNav ul li a {
+	display: block;
+	overflow: hidden;
+	background:url(../img/common/gnav.png) top left no-repeat;
+	text-indent:-9999px;
+}
+.globalHeader .headerContents .globalNav ul li.nav01 a { width:123px; height:71px; background-position:-10px -739px; }
+.globalHeader .headerContents .globalNav ul li.nav02 a { width:124px; height:71px; background-position:-10px -658px; }
+.globalHeader .headerContents .globalNav ul li.nav03 a { width:130px; height:71px; background-position:-10px -577px; }
+.globalHeader .headerContents .globalNav ul li.nav04 a { width:164px; height:71px; background-position:-10px -496px; }
+.globalHeader .headerContents .globalNav ul li.nav01 a:hover,
+.globalHeader .headerContents .globalNav ul li.nav01 a.active { width:123px; height:71px; background-position:-10px -415px; }
+.globalHeader .headerContents .globalNav ul li.nav02 a:hover,
+.globalHeader .headerContents .globalNav ul li.nav02 a.active { width:124px; height:71px; background-position:-10px -334px; }
+.globalHeader .headerContents .globalNav ul li.nav03 a:hover,
+.globalHeader .headerContents .globalNav ul li.nav03 a.active { width:130px; height:71px; background-position:-10px -253px; }
+.globalHeader .headerContents .globalNav ul li.nav04 a:hover,
+.globalHeader .headerContents .globalNav ul li.nav04 a.active { width:164px; height:71px; background-position:-10px -172px; }
+
+.globalHeader .headerContents .viewAllBtn {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.globalHeader .headerContents .viewAllBtn a {
+	display: block;
+	overflow: hidden;
+	background:url(../img/common/gnav.png) top left no-repeat;
+	text-indent:-9999px;
+	width:200px;
+	height:71px;
+	background-position:-10px -91px;
+}
+.globalHeader .headerContents .viewAllBtn a:hover {
+	background-position:-10px -10px;
+}
+
+/* footer
+------------------------------------------------------------*/
+.globalFooter {
+	width: 100%;
+	padding: 6px 0 0 0;
+	border-top: 6px solid #49A9A9;
+	background: #C9F5F3 url(../img/common/bg_dia.png) repeat left top;
+	color: #fff;
+}
+.globalFooter .toppageLink {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.globalFooter .toppageLink span {
+	position: absolute;
+	top: -32px;
+	left: 525px;
+}
+.globalFooter .toppageLink span:hover {
+	cursor: pointer;
+}
+
+
+/* ===== .footerContent01 ===== */
+.globalFooter .footerContent01 {
+	width: 100%;
+	margin: 0 0 6px 0;
+	border-top: 2px dashed #7CC7C7;
+	border-bottom: 2px dashed #7CC7C7;
+	
+}
+.globalFooter .footerContent01 > .inner {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+.globalFooter .footerContent01 .inner .contentsNav {
+	float: left;
+}
+.globalFooter .footerContent01 .inner .sns {
+	float: right;
+	width: 250px;
+}
+/* .footerContent01 .contentsNav */
+.globalFooter .footerContent01 .contentsNav dl {
+	float: left;
+	width: 170px;
+	margin: 0 20px 0 0;
+	padding: 0 10px 10px 10px;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+}
+.globalFooter .footerContent01 .contentsNav dl dt {
+	margin: 0 0 5px 0;
+	border-bottom: 1px solid #49A9A9;
+	font-size: 16px;
+	line-height: 1.1;
+}
+.globalFooter .footerContent01 .contentsNav dl dt a {
+	display: block;
+	padding: 20px 20px 16px 20px;
+}
+.globalFooter .footerContent01 .contentsNav dl dd {
+	padding: 0;
+}
+.globalFooter .footerContent01 .contentsNav dl dd ul {
+	padding: 2px 0;
+}
+.globalFooter .footerContent01 .contentsNav dl dd ul li {
+}
+.globalFooter .footerContent01 .contentsNav dl dd ul li a {
+	display: block;
+	padding: 8px 20px;
+}
+/* .footerContent01 .sns */
+.globalFooter .footerContent01 .sns h1 {
+	margin: 0 0 16px 0;
+	padding: 1.25em 0;
+	background: #49A9A9;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.globalFooter .footerContent01 .sns ul {
+	margin: 0 0 1em 0;
+	text-align: center;
+}
+.globalFooter .footerContent01 .sns ul li {
+	display: inline-block;
+	padding: 0 1em;
+}
+.globalFooter .footerContent01 .sns ul li a img {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+.globalFooter .footerContent01 .sns ul li a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.globalFooter .footerContent01 .sns .fbArea {
+    position: relative;
+    display: block;
+    margin: 35px 5px 5px 5px;
+    padding: 15px 20px;
+    text-align:left;
+	background: #fff;
+	color: #333;
+}
+.globalFooter .footerContent01 .sns .fbArea:after,
+.globalFooter .footerContent01 .sns .fbArea:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.globalFooter .footerContent01 .sns .fbArea:after {
+    top: -40px;
+    left: 55px;
+    border: 20px solid transparent;
+    border-bottom: 25px solid #ffffff; /*13px*/
+}
+.globalFooter .footerContent01 .sns .fbArea:before {
+    top: -40px;
+    left: 55px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #ffffff; /*10px*/
+}
+
+/* ===== .footerContent02 ===== */
+.globalFooter .footerContent02 {
+	width: 100%;
+	background: #49A9A9;
+	color: #fff;
+}
+.globalFooter .footerContent02 a {
+	color: #fff;
+}
+.globalFooter .footerContent02 .inner {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 20px 0 30px 0;
+}
+.globalFooter .footerContent02 .inner ul {
+	float: left;
+}
+.globalFooter .footerContent02 .inner ul li {
+	float: left;
+	margin: 0 3em 0 0;
+}
+.globalFooter .footerContent02 .inner ul li a {
+	display: inline-block;
+	padding: 0 0 0 0.1em;
+	color: #fff;
+}
+.globalFooter .footerContent02 .inner ul li a:hover {
+	border-bottom: 1px dashed #fff;
+}
+.globalFooter .footerContent02 .inner small {
+	float: right;
+}
+
+
+/* clearfix
+------------------------------------------------------------*/
+.clearfix:after {
+content: ".";
+display: block;
+visibility: hidden;
+height: 0;
+clear: both;
+}
+.clearfix {
+zoom: 1;
+}
+.clear{
+    clear: both;
+}
+

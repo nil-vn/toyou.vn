@@ -1,0 +1,23 @@
+/* Make all grid-sized elements block level again */
+@media (max-width: 480px) {
+  .vc_responsive {
+    div.row-fluid div[class*="span"] {
+      float: none;
+      display: block;
+      width: auto;
+      margin-left: 0;
+    }
+    
+    .wpb_tour .ui-tabs .ui-tabs-nav,
+    .wpb_tour .wpb_tab,
+    .wpb_tour_next_prev_nav {
+  	  width: 100%;
+  	  float: none;
+  	  margin-left: 0;
+    }
+    
+    #content .wpb_tour .ui-tabs .ui-tabs-nav {
+  	  margin-bottom: 10px;
+    }
+  }
+}
